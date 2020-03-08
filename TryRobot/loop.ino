@@ -2,13 +2,6 @@ bool mright = false;
 bool lastPower = false;
 uint8_t mode = -1;
 int pwm;
-//void servo()
-//{
-//   for (pos = 0; pos <= 30; pos += 1) { // goes from 0 degrees to 180 degrees
-//    // in steps of 1 degree
-//    myservo.write(pos);
-//    delay(15);
-//    }}
 void loop()
 {
 
@@ -120,30 +113,6 @@ void loop()
     }
   }
 
-  //Serial.println(getYaw());
-  //Coordinate c;
-  //getCoordinates(c);
-  //Serial.println(String(c.x) + "   " + String(c.y));
-  //  double data[7];
-  //
-  //   if (funcData(data))
-  //   {
-  //       powerOn = data[0];
-  //       //if (lastPower == 0 && powerOn == 1)
-  //         //  mright = !mright;
-  //       digitalWrite(powerLed, powerOn);
-  //       // linear.SetTunings(data[1], data[2], data[3]);
-  //       rotational.SetTunings(data[1], data[5], data[9]);
-  //       Serial.println("Kp:" + String(data[1]) + "\tKi:" + String(data[5]) + "\tKd" + String(data[9]));
-  //       if (powerOn)
-  //           (mright) ? bot.move(70, 0) : bot.move(70, 180);
-  //       else
-  //           bot.stopAll(false);
-  //       lastPower = powerOn;
-  //   }}
-
-  
-  
 //  if (tuner.update())
 //  {
 //    if (lastPower == 0 && powerOn == 1) {
